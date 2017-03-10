@@ -1,17 +1,16 @@
-#footer{
-  text-align: center;
-  clear: both;
+#footer {
+    text-align: center;
+    clear: both;
 
-  .footer-content {
-    width: 50%;
-    margin: 0 auto;
+    .footer-content {
+        width: 50%;
+        margin: 0 auto;
 
-    p {
-      padding-top: 60px;
-      font-size: $baseFont;
-      font-weight: $baseWeight;
-      text-align: left;
+        p {
+            padding-top: 60px;
+            font-size: $baseFont;
+            font-weight: $baseWeight;
+            text-align: center;
+        }
     }
-
-  }
 }

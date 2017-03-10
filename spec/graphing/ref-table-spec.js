@@ -3,10 +3,10 @@ const Ring = require('../../src/models/ring.js');
 const Blip = require('../../src/models/blip.js');
 const Radar = require('../../src/models/radar.js');
 
-describe('graphingRadar', function () {
+describe('graphingRadar', function() {
     var radar, toolsQuadrant, techniquesQuadrant, platformsQuadrant, languageFramework, element;
 
-    beforeEach(function () {
+    beforeEach(function() {
         toolsQuadrant = new Quadrant('Tools');
         techniquesQuadrant = new Quadrant('Techniques');
         platformsQuadrant = new Quadrant('Platforms');
@@ -18,12 +18,14 @@ describe('graphingRadar', function () {
         radar.addQuadrant(platformsQuadrant);
         radar.addQuadrant(languageFramework);
 
-        element = { innerHTML: '' };
+        element = {
+            innerHTML: ''
+        };
         spyOn(document, 'querySelector').and.returnValue(element);
     });
 
-    xdescribe('render', function () {
-        it("groups blips by ring", function () {
+    xdescribe('render', function() {
+        it("groups blips by ring", function() {
             var adopt = new Ring('Adopt');
             var assess = new Ring('Assess');
 
@@ -38,15 +40,15 @@ describe('graphingRadar', function () {
 
             expect(element.innerHTML).toEqual(
                 '<table class="radar-ref-table">' +
-                    '<tr class="radar-ref-status-group"><td colspan="3">Adopt</td></tr>' +
-                    '<tr><td>-1</td><td>foo</td><td>this is foo</td></tr>' +
-                    '<tr><td>-1</td><td>baz</td><td>this is baz</td></tr>' +
-                    '<tr class="radar-ref-status-group"><td colspan="3">Assess</td></tr>' +
-                    '<tr><td>-1</td><td>bar</td><td>this is bar</td></tr>' +
+                '<tr class="radar-ref-status-group"><td colspan="3">Adopt</td></tr>' +
+                '<tr><td>-1</td><td>foo</td><td>this is foo</td></tr>' +
+                '<tr><td>-1</td><td>baz</td><td>this is baz</td></tr>' +
+                '<tr class="radar-ref-status-group"><td colspan="3">Assess</td></tr>' +
+                '<tr><td>-1</td><td>bar</td><td>this is bar</td></tr>' +
                 '</table>');
         });
 
-        it("respects the assigned order of rings", function () {
+        it("respects the assigned order of rings", function() {
             var adopt = new Ring('Adopt', 1);
             var assess = new Ring('Assess', 3);
             var hold = new Ring('Hold', 2);
@@ -62,12 +64,12 @@ describe('graphingRadar', function () {
 
             expect(element.innerHTML).toEqual(
                 '<table class="radar-ref-table">' +
-                    '<tr class="radar-ref-status-group"><td colspan="3">Adopt</td></tr>' +
-                    '<tr><td>-1</td><td>foo</td><td>this is foo</td></tr>' +
-                    '<tr class="radar-ref-status-group"><td colspan="3">Hold</td></tr>' +
-                    '<tr><td>-1</td><td>baz</td><td>this is baz</td></tr>' +
-                    '<tr class="radar-ref-status-group"><td colspan="3">Assess</td></tr>' +
-                    '<tr><td>-1</td><td>bar</td><td>this is bar</td></tr>' +
+                '<tr class="radar-ref-status-group"><td colspan="3">Adopt</td></tr>' +
+                '<tr><td>-1</td><td>foo</td><td>this is foo</td></tr>' +
+                '<tr class="radar-ref-status-group"><td colspan="3">Hold</td></tr>' +
+                '<tr><td>-1</td><td>baz</td><td>this is baz</td></tr>' +
+                '<tr class="radar-ref-status-group"><td colspan="3">Assess</td></tr>' +
+                '<tr><td>-1</td><td>bar</td><td>this is bar</td></tr>' +
                 '</table>');
         });
     });

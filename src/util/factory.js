@@ -20,10 +20,10 @@ const Sheet = require('./sheet');
 const ExceptionMessages = require('./exceptionMessages');
 
 
-const GoogleSheet = function (sheetReference, sheetName) {
+const GoogleSheet = function(sheetReference, sheetName) {
     var self = {};
 
-    self.build = function () {
+    self.build = function() {
         var sheet = new Sheet(sheetReference);
         sheet.exists(function(notFound) {
             if (notFound) {
@@ -83,7 +83,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
                 var ringMap = {};
                 var maxRings = 4;
 
-                _.each(rings, function (ringName, i) {
+                _.each(rings, function(ringName, i) {
                     if (i == maxRings) {
                         throw new MalformedDataError(ExceptionMessages.TOO_MANY_RINGS);
                     }
@@ -91,7 +91,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
                 });
 
                 var quadrants = {};
-                _.each(blips, function (blip) {
+                _.each(blips, function(blip) {
                     if (!quadrants[blip.quadrant]) {
                         quadrants[blip.quadrant] = new Quadrant(_.capitalize(blip.quadrant));
                     }
@@ -99,7 +99,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
                 });
 
                 var radar = new Radar();
-                _.each(quadrants, function (quadrant) {
+                _.each(quadrants, function(quadrant) {
                     radar.addQuadrant(quadrant)
                 });
 
@@ -113,7 +113,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
         }
     };
 
-    self.init = function () {
+    self.init = function() {
         var content = d3.select('body')
             .append('div')
             .attr('class', 'loading')
@@ -135,8 +135,8 @@ const GoogleSheet = function (sheetReference, sheetName) {
     return self;
 };
 
-var QueryParams = function (queryString) {
-    var decode = function (s) {
+var QueryParams = function(queryString) {
+    var decode = function(s) {
         return decodeURIComponent(s.replace(/\+/g, " "));
     };
 
@@ -151,10 +151,10 @@ var QueryParams = function (queryString) {
 };
 
 
-const GoogleSheetInput = function () {
+const GoogleSheetInput = function() {
     var self = {};
 
-    self.build = function () {
+    self.build = function() {
         var queryParams = QueryParams(window.location.search.substring(1));
 
         if (queryParams.sheetId) {
@@ -191,7 +191,7 @@ function set_document_title() {
 function plotLogo(content) {
     content.append('div')
         .attr('class', 'input-sheet__logo')
-        .html('<a href="https://www.thoughtworks.com"><img src="/images/tw-logo.png" / ></a>');
+        .html('<a href="https://www.thoughtworks.com"><img src="/images/logo.png" / ></a>');
 }
 
 function plotFooter(content) {
@@ -201,10 +201,10 @@ function plotFooter(content) {
         .append('div')
         .attr('class', 'footer-content')
         .append('p')
-        .html('Powered by <a href="https://www.thoughtworks.com"> ThoughtWorks</a>. '
-        + 'By using this service you agree to <a href="https://info.thoughtworks.com/visualize-your-tech-strategy-terms-of-service.html">ThoughtWorks\' terms of use</a>. '
-        + 'You also agree to our <a href="https://www.thoughtworks.com/privacy-policy">privacy policy</a>, which describes how we will gather, use and protect any personal data contained in your public Google Sheet. '
-        + 'This software is <a href="https://github.com/thoughtworks/build-your-own-radar">open source</a> and available for download and self-hosting.');
+        .html('Powered by <a href="https://www.thoughtworks.com"> ThoughtWorks</a>. ' +
+            'By using this service you agree to <a href="https://info.thoughtworks.com/visualize-your-tech-strategy-terms-of-service.html">ThoughtWorks\' terms of use</a>. ' +
+            'You also agree to our <a href="https://www.thoughtworks.com/privacy-policy">privacy policy</a>, which describes how we will gather, use and protect any personal data contained in your public Google Sheet. ' +
+            'This software is <a href="https://github.com/thoughtworks/build-your-own-radar">open source</a> and available for download and self-hosting.');
 
 
 

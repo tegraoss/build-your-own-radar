@@ -87,7 +87,7 @@
         "ring": "experimente",
         "quadrant": "Linguagens & Frameworks",
         "isNew": "FALSE",
-        "description": "Desenvolvedor o backend com NodeJS é muito produtivo, não demanda configurações complexas no ambiente, possui alta performace e uso de memória mínimo mas é necessário um conhecimento maior quando seu sistema começa a crescer. Entender os conceitos e o comportamento do Javascript é essencial para que não haja problemas. Sugerimos utilizar junto com Typescript por não ser compilado, torna o desenvolvimento muito mais fácil e evita erros menores, como chamar uma função de um arquivo que não existe mais."
+        "description": "Desenvolver o backend com NodeJS é muito produtivo, não demanda configurações complexas no ambiente, possui alta performace e uso de memória mínimo mas é necessário um conhecimento maior quando seu sistema começa a crescer. Entender os conceitos e o comportamento do Javascript é essencial para que não haja problemas. Sugerimos utilizar junto com Typescript por não ser compilado, torna o desenvolvimento muito mais fácil e evita erros menores, como chamar uma função de um arquivo que não existe mais."
     },
     {
         "name": "React",
@@ -143,7 +143,7 @@
         "ring": "experimente",
         "quadrant": "Linguagens & Frameworks",
         "isNew": "FALSE",
-        "description": "Um ótimo framework de desenvolvimento web/javascript extremamente simples e poderoso, possui milhares de plugins que facilitam o desenvolvimento, possui SSR (Server Side Rendering) maduro com uma implementação muito simples utilzando o Nuxt.js. É um concorrento forte do Angular e do React."
+        "description": "Um ótimo framework de desenvolvimento web/javascript extremamente simples e poderoso, possui milhares de plugins que facilitam o desenvolvimento, possui SSR (Server Side Rendering) maduro com uma implementação muito simples utilizando o Nuxt.js. É um concorrento forte do Angular e do React."
     },
     {
         "name": "Hibernate",
@@ -199,7 +199,7 @@
         "ring": "avalie",
         "quadrant": "Ferramentas",
         "isNew": "FALSE",
-        "description": "Ferramenta Open Source para gerenciamento de processos de negócio . Permite modelar processos de negócio utilizando o padrão BPMN e executar o fluxo de trabalho dos processos modelados."
+        "description": "Ferramenta Open Source para gerenciamento de processos de negócio. Permite modelar processos de negócio utilizando o padrão BPMN e executar o fluxo de trabalho dos processos modelados."
     },
     {
         "name": "Codeship",
@@ -304,7 +304,7 @@
         "ring": "experimente",
         "quadrant": "Ferramentas",
         "isNew": "FALSE",
-        "description": "Ferramenta de APM mais conhecida do mercado, atende várias linguagens e plataformas como web, mobile e containers."
+        "description": "Ferramenta de APM(Application Performance Monitoring) mais conhecida do mercado, atende várias linguagens e plataformas como web, mobile e containers."
     },
     {
         "name": "Pencil",
@@ -388,7 +388,7 @@
         "ring": "experimente",
         "quadrant": "Ferramentas",
         "isNew": "FALSE",
-        "description": "Essa revolucionária ferramenta tem mudado bastante a maneria como desenvolvemos, ela reuni todos os seus arquivos (js, css, html, scss, images e etc..) de uma forma inteligente, analisa, comprime e descarta arquivos não necessários para o seu aplicativo funcionar. Altamente configurável com dezenas de plugins e exemplos, torna ainda mais fácil sua utilização. Hoje já é utilizada em grandes frameworks, como Angular, React, VueJS, Nativescript e outros. "
+        "description": "Essa revolucionária ferramenta tem mudado bastante a maneira como desenvolvemos. Ela reúne todos os seus arquivos (js, css, html, scss, images e etc..) de uma forma inteligente, analisa, comprime e descarta arquivos não necessários para o seu aplicativo funcionar. Altamente configurável com dezenas de plugins e exemplos, torna ainda mais fácil sua utilização. Hoje já é utilizada em grandes frameworks, como Angular, React, VueJS, Nativescript e outros. "
     },
     {
         "name": "WildFly",
@@ -542,7 +542,7 @@
         "ring": "adote",
         "quadrant": "Técnicas",
         "isNew": "FALSE",
-        "description": "Programar juntos, aprendendo um com o outro, temos utilizado muito dentro do nosso ambiente de trabalho, ajuda no nivelamento da equipe envolvida no projeto e a detectar e resolver problemas. Tornando mais produtivo a nossa equipe."
+        "description": "Programar junto e aprender um com o outro. Temos utilizado muito dentro do nosso ambiente de trabalho para ajudar no nivelamento da equipe envolvida no projeto e detectar e resolver problemas, tornando nossa equipe mais produtiva."
     },
     {
         "name": "Pesquisas/Questionários",
@@ -556,7 +556,7 @@
         "ring": "adote",
         "quadrant": "Técnicas",
         "isNew": "FALSE",
-        "description": "Técnica utilizada para dar vida aos modelos mentais. Recomendamos o uso sempre que a necessidade demandar desenvolvimento de tela."
+        "description": "Técnica utilizada para dar vida aos modelos mentais. Recomendamos o uso quando o projeto demanda desenvolvimento de interface gráfica."
     },
     {
         "name": "Reactive Programming",

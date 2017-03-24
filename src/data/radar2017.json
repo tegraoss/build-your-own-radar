@@ -1,0 +1,617 @@
+[{
+        "name": "JavaEE / CDI",
+        "ring": "adote",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "O Java EE é um conjunto de especificações para aplicações corporativas que está em um estado bastante maduro. Aliado ao CDI, para injeção de dependências, se torna uma ótima escolha e dispensa o uso de frameworks como o Spring."
+    },
+    {
+        "name": "Apps Nativos",
+        "ring": "experimente",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Em termos de qualidade, os aplicativos nativos sempre estarão a frente de qualquer outra solução. Porém cada projeto possui equipes e condições diferentes, é necessário avaliar em quantas plataformas o aplicativo será distribuído e se a equipe comporta o desenvolvimento com qualidade nessas plataformas."
+    },
+    {
+        "name": ".NET Core",
+        "ring": "avalie",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "O próximo passo do .Net Framework. A Microsoft resolveu fazer do zero todo o seu framework, tornando ele multi-plataforma e open source, embora ainda não completo, tomou uma direção diferente do seu antecessor, sendo mais modular, ganhando muito em performace, simplicidade na configuração do ambiente de desenvolvimento e servidor. Vale a pena ficar de olho, pois com o amadurecimento pode se tornar uma ferramento muito poderosa e altamente produtiva."
+    },
+    {
+        "name": "Angular 1",
+        "ring": "evite",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Framework muito usado para desenvolvimento web mas já ultrapassado, embora possua muitos plugins tambem possui alguns problemas grandes quanto a perfomance. Já existem outras ferramentas no mercado melhores e mais simples de desenvolver."
+    },
+    {
+        "name": "Angular 2",
+        "ring": "avalie",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "A evolução do Angular 1 tem prometido bastante, resolvendo todos os problemas da sua antiga versão, vem para bater de frente com outros frameworks, utiliza o Typescript por padrão (é possível usar javascript puro), tem a cada dia se tornado mais maduro para o mercado, embora o número de plugins e bibliotecas seja pequeno, comparado ao seu antecessor, tem crescimento muito a cada dia podendo não só ser utilzado na Web mas em apps também junto com o Nativescript"
+    },
+    {
+        "name": "Electron",
+        "ring": "experimente",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Electron é uma ferramenta para desenvolvimento de aplicações desktop em javascript. Estamos avaliando pois está em constante evolução e alto nível de produtividade."
+    },
+    {
+        "name": "Elixir",
+        "ring": "avalie",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Elixir é uma linguagem funcional que usa a VM do Erlang, ela é altamente escalável, veloz e tolerante a falhas. Estamos considerando sua adoção para a criação de microserviços ou processos que demandam uma grande quantidade de processamento."
+    },
+    {
+        "name": "Go",
+        "ring": "avalie",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Uma linguagem desenvolvida pelo Google, é reconhecida pela eficácia com processamento paralelo."
+    },
+    {
+        "name": "Ionic2",
+        "ring": "avalie",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Framework para desenvolvimento híbrido que utiliza Angular 2, TypeScript e Cordova. Possui uma boa base de componentes que atende Android, iOS e Windows Phone, além de permitir integração com o código nativo através de plugins do Cordova."
+    },
+    {
+        "name": "JSF",
+        "ring": "experimente",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Framework Java EE com ampla adoção para aplicações Java. Recomendamos pela sua produtividade para reutilização de componentes, mas com resalva para muitas customizações."
+    },
+    {
+        "name": "KoaJS",
+        "ring": "avalie",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Um microframework baseado em generators, feito pelo mesmo time do Express. Perfeito para o desenvolvimento de Aplicações Web e APIs."
+    },
+    {
+        "name": "Nativescript",
+        "ring": "experimente",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Uma plataforma open source para desenvolvimento de aplicativos hibridos mas diferente de outros, como Cordova ou Ionic, ele não utiliza WebView e sim a UI nativa da plataforma. Por isso o resultado final é muito superior, com uma ótima performace é possivel acessar todas as API's da plataforma nativa sem que seja necessário algum conhecimento da linguagem (JAVA ou Object C). Embora seja uma ferramenta madura no mercado tem uma comunidade pequena mas em crescimento. É possivel utilizar Angular junto com ele, o que torna o desenvolvimento muito mais fácil."
+    },
+    {
+        "name": "Node JS",
+        "ring": "experimente",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Desenvolvedor o backend com NodeJS é muito produtivo, não demanda configurações complexas no ambiente, possui alta performace e uso de memória mínimo mas é necessário um conhecimento maior quando seu sistema começa a crescer. Entender os conceitos e o comportamento do Javascript é essencial para que não haja problemas. Sugerimos utilizar junto com Typescript por não ser compilado, torna o desenvolvimento muito mais fácil e evita erros menores, como chamar uma função de um arquivo que não existe mais."
+    },
+    {
+        "name": "React",
+        "ring": "avalie",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Desenvolvido pelo Facebook, o React mudou o conceito de desenvolvimento, aplicando o Reacting Programming no seu core altamente componentizado e de grande performace. Com uma comunidade gigante pelo mundo, tem crescido nos últimos anos podendo ser utilizado até para desenvolver apps com o React Native. "
+    },
+    {
+        "name": "Ruby",
+        "ring": "evite",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Linguagem de programação desenvolvida em 1995 no japão, se popularizou com o framework Ruby On Rails em 2007."
+    },
+    {
+        "name": "Scala",
+        "ring": "avalie",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Scala é uma linguagem para a JVM que une orientação a objetos e programação funcional. É uma boa escolha para se avaliar se a aplicação precisar de processamento paralelo e Big Data."
+    },
+    {
+        "name": "SCSS",
+        "ring": "adote",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Pré-processador de CSS indispensável a qualquer projeto, o SCSS facilita modularização, legibilidade e também refatoramento de CSS em projetos legados."
+    },
+    {
+        "name": "Spring Boot",
+        "ring": "adote",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Spring Boot é uma extensão do Spring Framework, criado para falicilitar a configuração e desenvolvimento de aplicações com Spring trouxe novas features como: criação de uma aplicação stand-alone; Não necessidade de XML; embutir Tomcat, Jetty ou Undertow diretamente não necessitando fazer deploy de um WAR."
+    },
+    {
+        "name": "TypeScript",
+        "ring": "adote",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Criado pela Microsoft, Typescript é um superset de Javascript que auxilia o desenvolvimento em larga escala, sendo possivel definir tipos de variáveis e retorno de funções. Garantindo a compatibilidade entre navegadores e versões do Node e trazendo os benefícios de uma linguagem compilada."
+    },
+    {
+        "name": "VRaptor",
+        "ring": "evite",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "VRaptor é uma framework MVC open source desenvolvida pela Caelum que traz muita produtividade no desenvolvimento de aplicações Web. Em sua versão 4 introduziu o uso de CDI como provider de injeção de dependência. Atualmente o seu desenvolvimento está mais lento e vários de seus plugins usam versões muito defasadas de outras frameworks. Uma pena, nós aqui na Tegra a usamos em vários projetos até a sua versão 3, mas não a recomendamos mais para novos projetos."
+    },
+    {
+        "name": "VueJS",
+        "ring": "experimente",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Um ótimo framework de desenvolvimento web/javascript extremamente simples e poderoso, possui milhares de plugins que facilitam o desenvolvimento, possui SSR (Server Side Rendering) maduro com uma implementação muito simples utilzando o Nuxt.js. É um concorrento forte do Angular e do React."
+    },
+    {
+        "name": "Hibernate",
+        "ring": "adote",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Framework de persistência ORM Java. Adotamos pela grande produtividade, facilidade e documentação."
+    },
+    {
+        "name": "MyBatis",
+        "ring": "adote",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Framework de customizações de sql em Java. Adotamos pela larga reutilização de sql e criação de sql dinâmicos, não recomendamos para persistência."
+    },
+    {
+        "name": "PHP",
+        "ring": "adote",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Linguagem de programação que nasceu tendo a Web em mente, stateless e extremamente veloz nas últimas versões. A API não é tão bonita, mas possui frameworks bons e velozes."
+    },
+    {
+        "name": "Python",
+        "ring": "experimente",
+        "quadrant": "Linguagens & Frameworks",
+        "isNew": "FALSE",
+        "description": "Python é uma linguagem de programação com todos as características de uma linguagem moderna e muito fácil de aprender. Tem uma comunidade bastante ativa pelo mundo todo e conta com um vasto catálogo de frameworks para diversas áreas."
+    },
+    {
+        "name": "Appium",
+        "ring": "evite",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Framework para testes de aplicações mobile feito em Node. Utilizado para automação de rotinas de testes em sistemas mobile."
+    },
+    {
+        "name": "Axure",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta de design e documentação, utilizada para construção de wireframes, protótipos interativos e especificações funcionais."
+    },
+    {
+        "name": "Bizagi",
+        "ring": "avalie",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Plataforma digital para automação de processos, composta pelo Bizagi Modeler que permite a modelagem dos processos utilizando o padrão BPMN e o Bizagi Studio que permite transformar modelos de processos em workflows executáveis."
+    },
+    {
+        "name": "Bonita",
+        "ring": "avalie",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta Open Source para gerenciamento de processos de negócio . Permite modelar processos de negócio utilizando o padrão BPMN e executar o fluxo de trabalho dos processos modelados."
+    },
+    {
+        "name": "Codeship",
+        "ring": "avalie",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta de integração contínua com ótima integração com o repositórios git, deploy com docker e plano gratuito para projetos privados."
+    },
+    {
+        "name": "Confluence",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Confluence é um produto da Atlassian para colaboração em equipes através de ferramentas dinâmicas. Dentro dele é possível criar uma diversidade de documentos como atas de reunião, planejamentos de projetos, levantamentos de requisitos, entre outros. É um excelente software utilizado por milhares de equipes ao redor do mundo."
+    },
+    {
+        "name": "Eclipse",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta de ambiente de desenvolvimento integrado. Adotamos pela amplitude da ferramenta, tendo excelente auto-complete e muitos plugins disponíveis."
+    },
+    {
+        "name": "FastLane",
+        "ring": "avalie",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta para integração continua de aplicações mobile, permitindo o build e até a distribuição delas nas lojas."
+    },
+    {
+        "name": "Glowroot",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta Open Source para análise de performance de aplicações Java. Evidencia os pontos de lentidão e erros da aplicação, além de ser de fácil instalação e configuração."
+    },
+    {
+        "name": "Gradle",
+        "ring": "avalie",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Gradle é uma ferramenta de automação de build que utiliza uma linguagem de domínio específico (DSL), ao contrário do Apache Maven, que utiliza XML. Isso permite ao Gradle ser mais flexível do que o Maven, o que ajuda muito conforme o projeto vai crescendo e aumentando sua complexidade. Possui um ótimo ecossistema em relação a plugins e integrações. "
+    },
+    {
+        "name": "Jenkins",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Famosa ferramenta utilizada para integração e deploy. Baseada em plugins, é versátil e pode ser utilizada para compilar qualquer linguagem."
+    },
+    {
+        "name": "Jira",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Jira é uma ferramenta para gestão de projetos. Ele é muito utilizado para projetos agéis que adotam como metodologia Scrum e Kanban."
+    },
+    {
+        "name": "Jmeter",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Jmeter é uma ferramenta de automação de testes para API. Ela é muito utilizada para testes de performance como (carga, strees e estabilidade)"
+    },
+    {
+        "name": "Liquid Base",
+        "ring": "avalie",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta para controle de versionamento de banco de dados. Suporta vários BDs e os patchs de migração são descritos em XML ou JSON e transcritos para SQL no momento da execução."
+    },
+    {
+        "name": "Mailgun",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "O Mailgun é um serviço de APIs de envio, tracking e recebimento de emails transacionais de fácil implementação. Suporta várias linguagens e a conta free envia até 10.000 emails mensais."
+    },
+    {
+        "name": "Marvel App",
+        "ring": "evite",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Marvel é uma ferramenta online que possibilita o link entre imagens para apresentar ao usuário o fluxo de navegação. Não permite a criação de protótipos elaborados e fica aquem de ferramentas que se dispõe do mesmo propósito."
+    },
+    {
+        "name": "MongoDB",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Banco de dados não relacional sem esquemas. Extremamente veloz para gravação e leitura. É tolerante a falhas e escala de acordo com a necessidade do negócio."
+    },
+    {
+        "name": "MySQL",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Banco de dados relacional de fácil utilização e com diversas ferramentas para administração."
+    },
+    {
+        "name": "NewRelic",
+        "ring": "experimente",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta de APM mais conhecida do mercado, atende várias linguagens e plataformas como web, mobile e containers."
+    },
+    {
+        "name": "Pencil",
+        "ring": "evite",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta utilizada pra prototipar aplicações. Apesar de possuir criação de componentes, não funciona bem em sistemas OSX e não possibilita versionamento de protótipo."
+    },
+    {
+        "name": "PM2",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Gerenciador de Processos Node.JS, é a solução mais usada no mundo para colocar sistemas desenvolvidos nessa tecnologia em produção."
+    },
+    {
+        "name": "Postgres",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Gerenciador de banco de dados relacionais, open-source, multiplataforma e com boas ferramentas de administração."
+    },
+    {
+        "name": "RabbitMQ",
+        "ring": "experimente",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta para implementar o protocolo AMQP (Advanced Message Queuing Protocol) que permite a comunicação entre sistemas e microservices atráves de mensagens, tornando sua aplicação escalável e de alta disponibilidade. É possível utilizar o RabbitMQ em diversas linguaguens e conversar com sistemas desenvolvidos em outras linguagens."
+    },
+    {
+        "name": "Redis",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Redis é um banco de dados chave-valor com ótima performance de leitura e escrita. Nós o utilizamos com sucesso para o gerenciamneto de sessão de usuário em aplicações web."
+    },
+    {
+        "name": "Redmine",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta utilizada para gestão de projetos. Possibilita controle de tarefas, horas e extração de relatórios gerenciais."
+    },
+    {
+        "name": "Selenium Webdriver",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Selenium Webdriver é uma ferramenta de automação de testes que utiliza JUnit para estrutura do testes e Selenium para ações no browser. Além de ser uma aplicação freeware, ela é a ferramenta mais utilizada no mercado de trabalho pela sua capacidade de testes regressivos."
+    },
+    {
+        "name": "Sonar",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta de análise estática de código, atende várias linguagens e de fácil configuração. Auxília os times a encontrarem débitos técnicos, avalia cobertura de testes e sugere melhorias de código."
+    },
+    {
+        "name": "Soup Ui",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Ferramenta de teste de API Soap e Rest, muito efetiva e possibilita ao desenvolvedor organizar seus testes em projetos e suites."
+    },
+    {
+        "name": "Swagger",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Padrão para documentação de API Restful. Pode ser utilizado para gerar documentação, código para consumir ou prover a API."
+    },
+    {
+        "name": "Travis",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "A ferramenta de Integração Contínua mais utilizada por projetos open source. Se integra muito bem com o github."
+    },
+    {
+        "name": "Webpack",
+        "ring": "experimente",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Essa revolucionária ferramenta tem mudado bastante a maneria como desenvolvemos, ela reuni todos os seus arquivos (js, css, html, scss, images e etc..) de uma forma inteligente, analisa, comprime e descarta arquivos não necessários para o seu aplicativo funcionar. Altamente configurável com dezenas de plugins e exemplos, torna ainda mais fácil sua utilização. Hoje já é utilizada em grandes frameworks, como Angular, React, VueJS, Nativescript e outros. "
+    },
+    {
+        "name": "WildFly",
+        "ring": "adote",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Servidor de aplicação Java anteriormente conhecido como JBoss AS. Uma de suas vantagens é a sua CLI de gerenciamento, que facilita o deploy e manutenção de configurações e aplicações."
+    },
+    {
+        "name": "Yarn",
+        "ring": "avalie",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "O Yarn é um gerenciador de pacotes Node construído em cima do NPM. Apesar de notavelmente mais rápido que o NPM, ainda não é indicado pra ambiente de produção."
+    },
+    {
+        "name": "Zabbix",
+        "ring": "experimente",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Serviço de monitoramento de servidores, com alertas em tempo real e histórico da situaçao dos serviços. "
+    },
+    {
+        "name": "Adobe XD",
+        "ring": "experimente",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "A nova ferramenta de prototipagem da Adobe conta com poucos porém muito bons recursos que permitem criar protótipos com detalhes ricos."
+    },
+    {
+        "name": "Wildfly Swarm",
+        "ring": "avalie",
+        "quadrant": "Ferramentas",
+        "isNew": "FALSE",
+        "description": "Empacotamento reduzido para aplicações Java EE. Com ele é possível criar Microprofiles para aplicações facilitando escalabilidade."
+    },
+    {
+        "name": "AWS",
+        "ring": "adote",
+        "quadrant": "Plataformas",
+        "isNew": "FALSE",
+        "description": "Maior empresa de Cloud Computing, reconhecida mundialmente pelo ecommerce e seus serviços que dominam o mercado. Oferece infraestrutura, softwares e aplicações como serviços."
+    },
+    {
+        "name": "Digital Ocean",
+        "ring": "adote",
+        "quadrant": "Plataformas",
+        "isNew": "FALSE",
+        "description": "Serviço de Cloud Computing que oferece excelente preço e suporte para a hospedagem de sistemas."
+    },
+    {
+        "name": "Docker",
+        "ring": "adote",
+        "quadrant": "Plataformas",
+        "isNew": "FALSE",
+        "description": "Maior plataforma de containers do mercado. Possibilita ao desenvolvimento criar ambientes portáveis e de fácil configuração tanto para desenvolver quanto para colocar em produção."
+    },
+    {
+        "name": "Firebase",
+        "ring": "experimente",
+        "quadrant": "Plataformas",
+        "isNew": "FALSE",
+        "description": "O Firebase é uma plataforma de serviços backend do Google, extremamente prático de realizar setup e ótimo pra aplicações pontuais que não possuam muitas regras de negócio."
+    },
+    {
+        "name": "BDD",
+        "ring": "experimente",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Consiste em um método de testar software que em vez de testar unidades como o TDD, testa as regras de negócio. Normalmente os testes são criados a partir de features e cenários bastante parecidos com user stories."
+    },
+    {
+        "name": "BPMN",
+        "ring": "experimente",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Notação padrão utilizada para representar processos de negócios. Ótimo para mantermos padrões na modelagem de processos, facilitando a comunicação e o entendimento."
+    },
+    {
+        "name": "Brainstorming",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Técnica que explora soluções criativas e inovadoras. Adotamos porque nos faz pensar fora da caixa e enxergar além."
+    },
+    {
+        "name": "Code Review",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Revisar código é um dos princípios que gera conhecimento para toda equipe, recomendamos pois pregamos que o conhecimento deve ser compartilhado."
+    },
+    {
+        "name": "CQRS",
+        "ring": "experimente",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Técnica de separação de escrita e leitura de dados. Experimentamos pois separar comandos de leitura nos possibilida escalar nossas aplicações."
+    },
+    {
+        "name": "DDD",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Domain Driven Design é uma abordagem de desenvolvimento de software que consiste na análise do Dominio do cliente. O sistema é modelado de acordo com a estrutura real do negócio e usa termos conhecidos pelo Product Owner."
+    },
+    {
+        "name": "E2E Tests",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Testes que simulam ações do usuário final. Adotamos por ser uma ótima prática para garantirmos que as ações do usuário serão normalmente atendidas pelo sistema."
+    },
+    {
+        "name": "Event Sourcing",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Uma técnica que tem como base armazenar todos os comandos executados em um sistema em um log. Com Event Sourcing você consegue facilmente obter dados históricos do sistema."
+    },
+    {
+        "name": "Integração Contínua",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Técnica de desenvolvimento onde a integração do código é realizada frequentemente para evitar conflitos."
+    },
+    {
+        "name": "Talk interna",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Talks internas são ótimas para enriquecer e cultivar a partilha de conhecimento dentro de uma empresa. Aqui na Tegra, toda sexta alguém fala sobre um assunto agregador técnico, profissional ou pessoal."
+    },
+    {
+        "name": "Kanban",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Metodologia de desenvolvimento utilizado para controlar tarefas a fazer, fazendo e feitas. Recomendamos o uso em fases mais dinâmicas do projeto, onde o planejamento passa a não ser tão eficiente."
+    },
+    {
+        "name": "Microservices",
+        "ring": "experimente",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Arquitetura focada em decompor um sistema em várias aplicações pequenas, na qual cada uma pode ter sua própria linguagem, banco de dados e apis. Permite flexibilidade no desenvolvimento, porém aumenta complexidade na infraestrutura."
+    },
+    {
+        "name": "Pair Programming",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Programar juntos, aprendendo um com o outro, temos utilizado muito dentro do nosso ambiente de trabalho, ajuda no nivelamento da equipe envolvida no projeto e a detectar e resolver problemas. Tornando mais produtivo a nossa equipe."
+    },
+    {
+        "name": "Pesquisas/Questionários",
+        "ring": "avalie",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Técnica para levantamento de requisitos que consiste em disponibilizar aos usuários perguntas previamente elaboradas. A principal vantagem é que permite atingir um grande número de usuários."
+    },
+    {
+        "name": "Prototipação",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Técnica utilizada para dar vida aos modelos mentais. Recomendamos o uso sempre que a necessidade demandar desenvolvimento de tela."
+    },
+    {
+        "name": "Reactive Programming",
+        "ring": "avalie",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Programação orientada a reações, tem crescido muito no desenvolvimento de UI, onde toda a ação tomada, seja do usuário ou de algum evento dentro da aplicação se torna um stream que pode ser observada, manipulada e até mesmo gerar outros streams. O criador do stream não precisar saber quem são seus observadores e os observadores não precisam necessariamente saber de onde se originou o stream. Torna muito flexivel a manipulação de dados e ações em cadeia."
+    },
+    {
+        "name": "Scrum",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Metodologia de desenvolvimento utilizado para gestão do projeto. Recomendamos o uso para auxiliar no planejamento do projeto e acompanhamento das tarefas."
+    },
+    {
+        "name": "Service Workers",
+        "ring": "avalie",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Offline caching, request & response interceptions e push notifications são alguns exemplos do que os Service Workers podem fazer pela sua aplicação. Imprescindíveis aos Progressive Web Apps, os Service Workers terão um papel importante nos próximos anos da web."
+    },
+    {
+        "name": "TDD",
+        "ring": "experimente",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Test Driven Development é uma técnica que consiste em escrever testes antes de escrever o código em sí. Isso permite que as APIs sejam criadas de forma mais eficiente, com redução de acoplamento e alta coesão. Também simplifica muito a tarefa de refactoring e alterações no sistema já que os testes garantem a integridade do código e da logica de negócio."
+    },
+    {
+        "name": "WebSockets",
+        "ring": "experimente",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Consiste na utilização de sockets entre aplicações web e um backend. Permitindo assim, diferente do ajax, que haja possibilidade de envio de mensagens em ambos os sentidos e em tempo real."
+    },
+    {
+        "name": "Análise por Observação",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Técnica para levantamento de requisitos, que consiste em visitar o local de trabalho para coleta de informações através da observação do cotidiano de trabalho das pessoas e execução dos processos."
+    },
+    {
+        "name": "Testes unitários",
+        "ring": "adote",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "Conceito de testes é altamente recomendável para garantia de constante funcionamento das aplicações, assim como testes de unidade e testes de integração."
+    },
+    {
+        "name": "Babok",
+        "ring": "avalie",
+        "quadrant": "Técnicas",
+        "isNew": "FALSE",
+        "description": "É um conjunto de boas práticas em análise de negócio. Estamos avaliando para aumentarmos a produtividade na análise e diminuirmos o risco de falha do projeto."
+    }
+]

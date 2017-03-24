@@ -4,6 +4,6 @@ require('./images/tech-radar-201611-landing-page-wide.png');
 require('./images/favicon.png');
 require('./images/radar_legend.png');
 
-const GoogleSheetInput = require('./util/factory');
+const GoogleSheet = require('./util/factory');
 
-GoogleSheetInput().build();
+GoogleSheet().build();

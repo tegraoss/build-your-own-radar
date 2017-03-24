@@ -422,7 +422,7 @@ const Radar = function(size, radar) {
             .append('div')
             .attr('class', 'footer-content')
             .append('p')
-            .html('Feito por <a href="https://www.thoughtworks.com"> ThoughtWorks</a>.');
+            .html('Feito por <a target="_blank" href="https://www.thoughtworks.com"> ThoughtWorks</a>.');
     }
 
     function mouseoverQuadrant(order) {

@@ -419,10 +419,12 @@ const Radar = function(size, radar) {
         d3.select('body')
             .insert('div', '#radar-plot + *')
             .attr('id', 'footer')
-            .append('div')
-            .attr('class', 'footer-content')
-            .append('p')
-            .html('Feito por <a target="_blank" href="https://www.thoughtworks.com"> ThoughtWorks</a>.');
+            .append('div').html('<p>O Radar de Tecnologias é um meio de divulgar a visão tecnológica da Tegra. Ele é construído uma vez ao ano por nossos colaboradores e baseado no formato utilizado pela Thoughtworks em seus radares.</p> <p>Os itens presentes foram discutidos a partir de experiências pessoais e nos projetos da empresa. Eles estão divididos nos quadrantes Linguagens & Frameworks, Técnicas, Plataformas e Ferramentas.</p>')
+            .append('ul').attr('class', 'legend').html('<li><strong>Adote</strong>: Nós acreditamos que esses ítens podem ser adotados pela indústria. Acreditamos que a escolha desses ítens é, na maioria das vezes, acertada.</li> <li><strong>Experimente</strong>: Vale a pena testar em projetos menores ou com baixa criticidade.</li> <li><strong>Avalie</strong>: Deve ser explorados com o objetivo de ver como se encaixa em sua empresa.</li> <li><strong>Evite</strong>: Os ítens que estão aqui devem ser evitados.</li>')
+            .append('div').attr('class', 'footer-content').append('p').html('Feito por <a target="_blank" href="https://www.thoughtworks.com"> ThoughtWorks</a>.');
+        // if(selectedQuadrant.classed('selected', true)) {
+        //     $('footer').css('display', 'none');
+        // }
     }
 
     function mouseoverQuadrant(order) {

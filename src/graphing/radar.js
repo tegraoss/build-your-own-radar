@@ -349,7 +349,6 @@ const Radar = function(size, radar) {
 
     function redrawFullRadar() {
         removeHomeLink();
-        removeRadarLegend();
 
         svg.style('left', 0).style('right', 0);
 
@@ -372,6 +371,8 @@ const Radar = function(size, radar) {
 
         d3.selectAll('.quadrant-group')
             .style('pointer-events', 'auto');
+        
+        d3.select('#footer').style('display', 'block');
     }
 
     function plotRadarHeader() {
@@ -485,6 +486,8 @@ const Radar = function(size, radar) {
             .duration(1000)
             .style('pointer-events', 'none')
             .attr('transform', 'translate(' + translateXAll + ',' + translateYAll + ')scale(0)');
+
+        d3.select('#footer').style('display', 'none');
 
     }
 

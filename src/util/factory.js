@@ -15,15 +15,14 @@ const GraphingRadar = require('../graphing/radar');
 const MalformedDataError = require('../exceptions/malformedDataError');
 const SheetNotFoundError = require('../exceptions/sheetNotFoundError');
 const ContentValidator = require('./contentValidator');
-const Sheet = require('./sheet');
 const ExceptionMessages = require('./exceptionMessages');
 const RadarData = require('../data/radar2017.json');
 
 
-const GoogleSheet = function() {
+const GoogleSheet = function () {
     var self = {};
 
-    self.build = function() {
+    self.build = function () {
         createRadar();
 
         function displayErrorMessage(exception) {
@@ -63,7 +62,7 @@ const GoogleSheet = function() {
                 var ringMap = {};
                 var maxRings = 4;
 
-                _.each(rings, function(ringName, i) {
+                _.each(rings, function (ringName, i) {
                     if (i == maxRings) {
                         throw new MalformedDataError(ExceptionMessages.TOO_MANY_RINGS);
                     }
@@ -71,7 +70,7 @@ const GoogleSheet = function() {
                 });
 
                 var quadrants = {};
-                _.each(blips, function(blip) {
+                _.each(blips, function (blip) {
                     if (!quadrants[blip.quadrant]) {
                         quadrants[blip.quadrant] = new Quadrant(_.capitalize(blip.quadrant));
                     }
@@ -79,7 +78,7 @@ const GoogleSheet = function() {
                 });
 
                 var radar = new Radar();
-                _.each(quadrants, function(quadrant) {
+                _.each(quadrants, function (quadrant) {
                     radar.addQuadrant(quadrant)
                 });
 
@@ -93,7 +92,7 @@ const GoogleSheet = function() {
         }
     };
 
-    self.init = function() {
+    self.init = function () {
         var content = d3.select('body')
             .append('div')
             .attr('class', 'loading')
@@ -115,8 +114,8 @@ const GoogleSheet = function() {
     return self;
 };
 
-var QueryParams = function(queryString) {
-    var decode = function(s) {
+var QueryParams = function (queryString) {
+    var decode = function (s) {
         return decodeURIComponent(s.replace(/\+/g, " "));
     };
 
@@ -131,10 +130,10 @@ var QueryParams = function(queryString) {
 };
 
 
-const GoogleSheetInput = function() {
+const GoogleSheetInput = function () {
     var self = {};
 
-    self.build = function() {
+    self.build = function () {
         var queryParams = QueryParams(window.location.search.substring(1));
 
         if (queryParams.sheetId) {

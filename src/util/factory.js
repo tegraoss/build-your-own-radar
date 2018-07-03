@@ -16,7 +16,7 @@ const MalformedDataError = require('../exceptions/malformedDataError');
 const SheetNotFoundError = require('../exceptions/sheetNotFoundError');
 const ContentValidator = require('./contentValidator');
 const ExceptionMessages = require('./exceptionMessages');
-const RadarData = require('../data/radar2017.json');
+const RadarData = require('../data/radar2018.json');
 
 
 const GoogleSheet = function () {
@@ -51,7 +51,7 @@ const GoogleSheet = function () {
         function createRadar() {
 
             try {
-                document.title = "Radar de Tecnologias 2017";
+                document.title = "Radar de Tecnologias 2018";
                 var all = RadarData;
 
                 var blips = _.map(all, new InputSanitizer().sanitize);
